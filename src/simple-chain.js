@@ -37,15 +37,3 @@ const chainMaker = {
     return result;
   },
 };
-
-console.log(
-  [
-    '( 3rd )',
-    '( 2nd )',
-    '( function() {} )',
-    '( DEF )',
-    '( null )',
-    '( [object Object] )',
-  ].join('~~')
-);
-module.exports = chainMaker;
