@@ -37,3 +37,5 @@ const chainMaker = {
     return result;
   },
 };
+
+module.exports = chainMaker;
